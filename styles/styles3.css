@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: #333333;
+    color: white;
+}
+.header {
+    border: 2px solid rgba(0, 0, 0, 0.218);
+    margin-top: 5px;
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.header nav {
+    font-family: 'Ubuntu';
+    padding: 5px;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+    stroke: black 3px;
+    transition: 0.2s;
+}
+.header a:hover {
+    color: greenyellow;
+    
+}
+#q {
+    font-family: 'Ubuntu';
+    text-align: center;
+    font-style: italic;
+}
+.main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.topic {
+    margin-left: 25px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 5px 40px 40px 40px;
+    margin-top: 20px;
+    max-width: 300px;
+    min-width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+table {
+    border-collapse: collapse;
+}
+.topic p {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 25px;
+    color: goldenrod;
+    padding: 25px;
+}
+.topic td {
+    padding: 5px;
+    /*border: 1px solid rgba(0, 0, 0, 0.356);*/
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+#top {
+    position: relative;
+    box-shadow: 0 2px 30px goldenrod;
+    border-radius: 5px;
+    animation-name: topAnim;
+    animation-duration: 10s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes topAnim {
+    0% {
+        box-shadow: 0 0 10px goldenrod;
+    }
+    14% {
+        box-shadow: 4px 0 10px goldenrod;
+    }
+    28% {
+        box-shadow: 1px -3px 15px goldenrod;
+    }
+    42% {
+        box-shadow: -1px -4px 10px goldenrod;
+    }
+    56% {
+        box-shadow: -4px 0 10px goldenrod;
+    }
+    70% {
+        box-shadow: -3px 3px 15px goldenrod;
+    }
+    84% {
+    box-shadow: 0 4px 10px goldenrod;
+    }
+    100% {
+        box-shadow: 0 0 11px goldenrod;
+    }
+}

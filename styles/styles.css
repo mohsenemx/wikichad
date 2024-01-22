@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #333333;
+    color: white;
+}
+.header {
+    border: 2px solid rgba(0, 0, 0, 0.218);
+    margin-top: 5px;
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.header nav {
+    font-family: 'Ubuntu';
+    padding: 5px;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+    stroke: black 3px;
+    transition: 0.2s;
+}
+.header a:hover {
+    color: greenyellow;
+    
+}
+#q {
+    font-family: 'Ubuntu';
+    text-align: center;
+    font-style: italic;
+}
+.main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    min-height: 350px;
+    max-height: 360px;
+    border: 3px solid rgb(157, 119, 23);
+    border-radius: 10px;
+    font-size: 15px;
+    color: gold;
+    
+}
+.card p {
+    padding: 5px;
+}

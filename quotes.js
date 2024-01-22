@@ -21,5 +21,9 @@ var qoutes = [
         name: 'Kim Jong Un',
         text: 'Want to know what\'s more destructive than a nuclear bomb? Words.',
         picture: './images/jongun.jpg'
+    }, {
+        name: 'Mehdi Baliq',
+        text: 'Scam people! Even in prison!',
+        picture: './images/ddsa.jpg',
     }
 ];

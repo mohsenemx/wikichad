@@ -98,7 +98,7 @@ table {
         box-shadow: -3px 3px 15px goldenrod;
     }
     84% {
-    box-shadow: 0 4px 10px goldenrod;
+        box-shadow: 0 4px 10px goldenrod;
     }
     100% {
         box-shadow: 0 0 11px goldenrod;
